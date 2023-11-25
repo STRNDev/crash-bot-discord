@@ -9,7 +9,7 @@ from discord.ext import commands
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix=".",  intents=intents)
 
-token = 'MTE3MDM3MjM1Nzc5MDEyMjA0NA.G78QJh.N9Fo0NSYQNlRnoMogf4mvQAjlUPDnO3aurFBPU'
+token = 'HERE YOUR TOKEN'
 
 @bot.event
 async def on_ready():
